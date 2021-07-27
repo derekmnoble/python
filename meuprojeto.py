@@ -4,7 +4,7 @@ import pandas as pd
 tabela_vendas = pd.read_excel('Vendas.xlsx')
 
 # visualizar a base de dados
-print(tabela_vendas)
+
 
 # faturamento por loja
 faturamento = tabela_vendas[['ID Loja', 'Valor Final']].groupby('ID Loja').sum()

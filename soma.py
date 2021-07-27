@@ -1,4 +1,3 @@
-
 x: int
 soma: int
 
